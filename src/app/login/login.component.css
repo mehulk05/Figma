@@ -1,0 +1,86 @@
+.login-container{
+    float: none;
+    padding: 70px 0;
+    margin: 0 auto;
+    max-width: 450px;
+    float: none;
+    padding: 70px 0;
+}
+
+.form-title{
+    text-align: center;
+    padding: 35px 0;
+    color:#0C2E4D;
+    font-weight: bold;
+}
+.login-container input{
+    background-color: #F5F5F5;
+    color: #A9A9A9;
+    font-family: DM sans-serif;
+   
+}
+
+
+.login-container input[type="password"]{
+    background-image: url("/assets/visibility\ \(2\)\ 2.png");
+    background-repeat: no-repeat;
+    background-position-x: 96%;
+    background-position-y: center;
+}
+.login-container label{
+    color:#A9A9A9
+}
+.checkbox a{
+    float: right;
+    color:#D11217
+}
+.checkbox input[type=checkbox]{
+color:#D11217;
+display:none
+}
+
+.checkbox label span:before{
+    background-color: #fff;
+    border: 1px solid #A9A9A9;
+    content: "";
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    height: 14px;
+    left: 0;
+    line-height: 16px;
+    margin-right: 0;
+    padding-left: 2px;
+    position: absolute;
+    top: 3px;
+    width: 14px;
+    border-radius: 3px;
+}
+
+.checkbox  input[type="checkbox"]:checked ~ label span::before {
+    background-color: #D11217;
+    color: rgb(255, 255, 255);
+    content: "✔";
+    border-width: 1px;
+    border-style: solid;
+    
+    border-image: initial;
+}
+.btn-login
+{
+    background-color: #D11217;
+    color:#fff;
+   padding: 8px 50px;
+    text-align: center;
+}
+.login-button{
+    padding: 25px 0;
+    margin: 0 auto;
+    text-align: center;
+
+}
+@media screen and (max-width:747px){
+    .login-container{
+        max-width: 100%;
+    }
+}
